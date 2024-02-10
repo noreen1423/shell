@@ -1,5 +1,5 @@
 # Custom Shell for xv6 and UNIX
-###Noreen Sulehry
+- By Noreen Sulehry
 
 ## Overview
 This custom shell is designed to enhance the command line interface experience in xv6 and compatible UNIX environments. Featuring support for the sequence execution operator `;`, and the capability to understand and execute commands enclosed within parentheses `()`, this shell aims to provide a more flexible and powerful command execution mechanism. It supports up to 2 levels of nesting with parentheses, thereby enabling more complex command execution flows.
