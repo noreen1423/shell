@@ -37,12 +37,12 @@ Execute `test_myPages` with different process IDs to inspect their memory page a
 
 ### Debugging Steps
 #### Step 1: Compile Your Test Program with Debugging Symbols
-To prepare your program for Valgrind analysis, compile it with debugging information. This allows Valgrind to provide detailed insights about where in your code the potential issues are detected. For instance, to compile a program named `test1.c`, you would use the following command: `gcc -g test1.c -o test1`
+To prepare your program for Valgrind analysis, compile it with debugging information. This allows Valgrind to provide detailed insights about where in your code the potential issues are detected. For instance, to compile a program named `test1.c`, you would use the following command: ```gcc -g test1.c -o test1```
 
 Replace `test1.c` and `test1` with the names of your source file and the desired output file, respectively.
 
 #### Step 2: Run Valgrind with Leak Checks Enabled
-Next, execute your program under Valgrind's supervision to check for memory leaks. Use the `--leak-check=yes` option to enable detailed leak diagnostics: `valgrind --leak-check=yes ./test1`
+Next, execute your program under Valgrind's supervision to check for memory leaks. Use the `--leak-check=yes` option to enable detailed leak diagnostics: ```valgrind --leak-check=yes ./test1```
 
 Again, replace `test1` with the name of your executable file.
 
