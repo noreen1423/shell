@@ -26,7 +26,7 @@ This project introduces two new system calls, `myV2p` and `myPages`, to the xv6 
 4. Within the xv6 shell, you can now utilize the testing programs for `myV2p` and `myPages` to explore the new functionalities.
 
 ## Debugging with Valgrind
-Valgrind is a powerful tool for detecting memory leaks and undefined behavior in programs. Although not directly applicable within xv6, the principles demonstrated can be applied to debugging similar issues in user programs developed for xv6.
+Valgrind is a powerful tool for detecting memory leaks and undefined behavior in programs. Although not directly applicable within xv6, the principles demonstrated can be applied to debugging similar issues in user programs developed for xv6. Please find the following link to download and install the tool: http://valgrind.org/downloads/current.html
 
 ### Usage Examples
 - **Using `myV2p`**:
